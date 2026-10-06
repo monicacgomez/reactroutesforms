@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
+import Collatz from './components/Collatz';
+import TablaMultiplicar from './components/TablaMultiplicar';
+import TablaMultiplicar2 from './components/TablaMultiplicar2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1> Index principal </h1>
+    <MenuRutas/>
     <hr/>
     <Router/>
     <hr/>
